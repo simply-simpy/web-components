@@ -1,0 +1,14 @@
+.tab-switch {
+  color: #333;
+  display: block;
+  font-family: Arial, 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 1em 3em;
+  white-space: nowrap;
+}
+.tab-switch:hover {
+  background: #2774ae;
+  color: white;
+  transition: all 250ms linear;
+}

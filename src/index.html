@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html dir='ltr' lang='en'>
+<head>
+  <meta charset='utf-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0' />
+  <title>Web Component Tabs</title>
+  <style>
+    .flight-search-tabs {
+      display: flex;
+    }
+  </style>
+  <script type='module' src='/build/alaskaairlines.esm.js'></script>
+  <script nomodule src='/build/alaskaairlines.js'></script>
+</head>
+<body>
+
+<div class='flight-search-tabs'>
+  <flight-search-tab tabname='Book' tabswitchname='booking'></flight-search-tab>
+  <flight-search-tab tabname='Check in' tabswitchname='checkin'></flight-search-tab>
+  <flight-search-tab tabname='Flight status' tabswitchname='status'></flight-search-tab>
+  <flight-search-tab tabname='Manage Trip' tabswitchname='manage'></flight-search-tab>
+</div>
+
+</body>
+</html>
