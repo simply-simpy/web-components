@@ -17,11 +17,11 @@ export class FlightSearchTab {
   }
 
   render() {
-    return <div>
-      <a class="tab-switch" href={this.getText(this.tabswitchname)}>
+    return <a
+        class="tab-switch" href={this.getText(this.tabswitchname)}>
         {this.getText(this.tabname)}
       </a>
-    </div>;
+    ;
   }
 
 }
